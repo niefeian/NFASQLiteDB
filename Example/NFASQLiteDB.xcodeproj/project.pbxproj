@@ -14,7 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E4DBCFD4DF4DF0E4A8BA823B /* Pods_NFASQLiteDB_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A308CDA920F78B27066A0D7D /* Pods_NFASQLiteDB_Example.framework */; };
+		A647392823725D1F0053B23A /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = A647392723725D1E0053B23A /* data.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B9E6F923F6D1D71EDE08838 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1B9E6F923F6D1D71EDE08838 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		24F5B3C25B77FE81A14A1047 /* Pods-NFASQLiteDB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFASQLiteDB_Example.debug.xcconfig"; path = "Target Support Files/Pods-NFASQLiteDB_Example/Pods-NFASQLiteDB_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		32D68DD296272E7ABC0C9F76 /* Pods-NFASQLiteDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFASQLiteDB_Tests.release.xcconfig"; path = "Target Support Files/Pods-NFASQLiteDB_Tests/Pods-NFASQLiteDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NFASQLiteDB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFASQLiteDB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +43,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6464DDA9C7AE707CD20DDD80 /* Pods-NFASQLiteDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFASQLiteDB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NFASQLiteDB_Tests/Pods-NFASQLiteDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A308CDA920F78B27066A0D7D /* Pods_NFASQLiteDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFASQLiteDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A647392323725CAD0053B23A /* NFASQLiteDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NFASQLiteDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A647392723725D1E0053B23A /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = data.db; path = ../NFASQLiteDB/Assets/data.db; sourceTree = "<group>"; };
 		AC0B4BDBA6DBF3D10166F727 /* Pods-NFASQLiteDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFASQLiteDB_Example.release.xcconfig"; path = "Target Support Files/Pods-NFASQLiteDB_Example/Pods-NFASQLiteDB_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B5133C8B941258EC89CE8226 /* NFASQLiteDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NFASQLiteDB.podspec; path = ../NFASQLiteDB.podspec; sourceTree = "<group>"; };
+		B5133C8B941258EC89CE8226 /* NFASQLiteDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NFASQLiteDB.podspec; path = ../NFASQLiteDB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C08B05CB6A1458DC498999C2 /* Pods_NFASQLiteDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFASQLiteDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D395A3B29F1C5EFCC3C118D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D395A3B29F1C5EFCC3C118D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4DBCFD4DF4DF0E4A8BA823B /* Pods_NFASQLiteDB_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,13 +78,13 @@
 				6464DDA9C7AE707CD20DDD80 /* Pods-NFASQLiteDB_Tests.debug.xcconfig */,
 				32D68DD296272E7ABC0C9F76 /* Pods-NFASQLiteDB_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				A647392723725D1E0053B23A /* data.db */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for NFASQLiteDB */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -154,6 +155,7 @@
 		87A99E199F3C7790364C9415 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A647392323725CAD0053B23A /* NFASQLiteDB.framework */,
 				A308CDA920F78B27066A0D7D /* Pods_NFASQLiteDB_Example.framework */,
 				C08B05CB6A1458DC498999C2 /* Pods_NFASQLiteDB_Tests.framework */,
 			);
@@ -228,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A647392823725D1F0053B23A /* data.db in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -503,13 +507,14 @@
 			baseConfigurationReference = 24F5B3C25B77FE81A14A1047 /* Pods-NFASQLiteDB_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NFASQLiteDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -518,13 +523,14 @@
 			baseConfigurationReference = AC0B4BDBA6DBF3D10166F727 /* Pods-NFASQLiteDB_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NFASQLiteDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

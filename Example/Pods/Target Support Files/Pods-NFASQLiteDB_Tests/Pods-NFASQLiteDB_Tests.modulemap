@@ -1,0 +1,6 @@
+framework module Pods_NFASQLiteDB_Tests {
+  umbrella header "Pods-NFASQLiteDB_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

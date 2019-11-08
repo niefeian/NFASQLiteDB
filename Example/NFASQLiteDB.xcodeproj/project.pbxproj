@@ -14,7 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A647392823725D1F0053B23A /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = A647392723725D1E0053B23A /* data.db */; };
+		C33AE973210A21EA12B0B2DC /* Pods_NFASQLiteDB_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A308CDA920F78B27066A0D7D /* Pods_NFASQLiteDB_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		6464DDA9C7AE707CD20DDD80 /* Pods-NFASQLiteDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFASQLiteDB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NFASQLiteDB_Tests/Pods-NFASQLiteDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A308CDA920F78B27066A0D7D /* Pods_NFASQLiteDB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFASQLiteDB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A647392323725CAD0053B23A /* NFASQLiteDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NFASQLiteDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A647392723725D1E0053B23A /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = data.db; path = ../NFASQLiteDB/Assets/data.db; sourceTree = "<group>"; };
 		AC0B4BDBA6DBF3D10166F727 /* Pods-NFASQLiteDB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFASQLiteDB_Example.release.xcconfig"; path = "Target Support Files/Pods-NFASQLiteDB_Example/Pods-NFASQLiteDB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5133C8B941258EC89CE8226 /* NFASQLiteDB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NFASQLiteDB.podspec; path = ../NFASQLiteDB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C08B05CB6A1458DC498999C2 /* Pods_NFASQLiteDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFASQLiteDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33AE973210A21EA12B0B2DC /* Pods_NFASQLiteDB_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				A647392723725D1E0053B23A /* data.db */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for NFASQLiteDB */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -250,7 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A647392823725D1F0053B23A /* data.db in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

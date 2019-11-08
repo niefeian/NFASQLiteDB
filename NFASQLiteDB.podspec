@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'NFASQLiteDB/Classes/**/*'
   s.swift_version = '5.0'
     s.resource_bundles = {
-    'NFASQLiteDB' => ['NFASQLiteDB/Assets/data.db']
+    'NFASQLiteDB' => ['NFASQLiteDB/Assets/*.db']
     }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
